@@ -5,13 +5,15 @@
         <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
     </head>
     <body>
-    
-        <div id="videos">
-            <div id="subscriber"></div>
-            <div id="publisher"></div>
+        <div id="box">
+            <div id="button-div">
+                <input onclick="disableEnableVideoAndAudio()" type="button" value="Disable Video and Audio" id="button"/>
+            </div>
+            <div id="videos">
+                <div id="subscriber"></div>
+                <div id="publisher"></div>
+            </div>
         </div>
-    
         <script type="text/javascript" src="../vonage-test/app.js"></script>
     </body>
-    </html>
-    
+</html>
